@@ -3,12 +3,12 @@
  services:
    api-students:
      build: ./api-students
-     imagen: renzofelix578/api-students
+     image: renzofelix578/api-students
      ports:
        - 8000:8000
    websimple:
      build: ./websimple
-     imagen: renzofelix578/websimple
+     image: renzofelix578/websimple
      ports:
        - 8080:80
    
